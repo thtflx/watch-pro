@@ -1,0 +1,241 @@
+/* GLOBAL */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'League Spartan',"Arial", sans-serif;
+  font-size: 32px;
+}
+
+
+/* CONTAINER */
+.container {
+  width: 100%;
+  max-width: 1120px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* hero */
+.hero {
+  background-color: rgba(248, 248, 248, 1);
+}
+
+
+.hero-container {
+  display: flex;
+}
+
+.hero-content {
+  padding-top: 104px;
+  padding-bottom: 203px;
+}
+
+.hero-little {
+  margin-top: 0;
+  margin-bottom: 53px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 45px;
+  color: #161515;  
+}
+
+.hero-heading {
+  margin-top: 0;
+  margin-bottom: 43px;
+  /* width: 877px; */
+  font-weight: 300;
+  font-size: 250px;
+  line-height: 230px;
+  
+  color: #272727;  
+}
+
+.hero-text {
+  margin-top: 0;
+  margin-bottom: 87px;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 50px;
+  color: #161515;  
+}
+
+.hero-img {
+  padding-top: 4px;
+}
+
+/* HERO-TWO-BUTTONS */
+.hero-two-buttons {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  margin-right: 0;
+}
+
+
+.main-link {
+  padding-top: 0;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 29px;
+  color: #fff;
+
+  text-decoration: none;
+  background-color: #161515;
+  padding-top: 26px;
+  padding-bottom: 35px;
+  padding-left: 73px;
+  padding-right: 74px;
+  margin-right: 0;
+  font-family: 'League Spartan',"Arial",sans-serif;  
+}
+
+.hero-price {
+  /* width: 143px; */
+  /* padding-top: 1px; */
+  /* padding-bottom: 31px; */
+  padding-left: 28px;
+  padding-right: 27px;
+
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 60px;  
+  justify-content: center;
+  text-align: center;
+  color: #272727;  
+  background-color: #fff;
+  border: 2px solid rgb(218, 212, 212);
+}
+
+
+
+/* MODELS */
+.models {
+  padding-top: 43px;
+  padding-bottom: 59px;
+}
+
+.models-little {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.86;
+  text-align: center;
+  font-family: 'League Spartan',"Arial",sans-serif;
+}
+
+.models-heading {
+  margin-top: 0;
+  margin-bottom: 84px;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 81px;
+  text-align: center;  
+}
+
+.models-list {
+  width: 531px;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-bottom: 85px; */
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.models-img-wrapper {
+  margin: 0 auto;
+  width: 417px;
+  height: 630px;
+  background-color: rgba(248, 248, 248, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 67px;
+  border: 2px solid rgba(187, 139, 93, 1);
+
+}
+
+.models-list-item {
+  margin-top: 0;
+  margin-bottom: 85px;
+}
+
+.models-title {
+  margin-top: 0;
+  margin-bottom: 17px;
+  font-size: 32px;
+  line-height: 29px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.models-text {
+  margin-top: 0;
+  font-size: 32px;
+  line-height: 50px;
+  font-weight: 300;
+  text-align: center;
+}
+
+/* SITE-FOOTER */
+.site-footer-title {
+  font-family: 'League Spartan',"Arial",sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 60px;  
+  text-align: center; 
+  margin-top: 0;
+  margin-bottom: 9px;
+}
+
+.site-footer-line {
+  background-color: rgba(112, 112, 112, 1);
+  border: 1px solid #707070;
+  width: 178.03px;
+  height: 0;
+  margin-bottom: 49px;
+}
+
+.site-footer-container {
+  width: 580px;
+}
+
+.site-footer-text {
+  margin-top: 0;
+  padding-bottom: 142px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 41px;
+  text-align: center;
+  justify-content: center;
+}
+
+.site-footer-text-end {
+  color: rgba(187, 139, 93, 1);
+  text-decoration: underline;
+}
+
+
+
+/* .neon-text {
+  color: rgb(247, 243, 238);
+  text-shadow:
+    0 0 1px #fff,
+    0 0 2px #fff,
+    0 0 5px #fff,
+    0 0 11px rgb(200, 163, 42),
+    0 0 20px #0fa,
+    0 0 30px #0fa,
+    0 0 55px rgb(129, 214, 16),
+    0 0 80px #0fa;
+} */
